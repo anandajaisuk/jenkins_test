@@ -1,5 +1,9 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson.model.Queue_-State>
+<<<<<<< HEAD
   <counter>16</counter>
+=======
+  <counter>0</counter>
+>>>>>>> d6faf062bc7ac5e88404ad8b8ad3d8f99288a794
   <items/>
 </hudson.model.Queue_-State>
