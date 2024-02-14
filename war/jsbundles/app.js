@@ -101,16 +101,18 @@ function menuItem(options) {
   const label = xmlEscape(itemOptions.label);
   let badgeText;
   let badgeTooltip;
+  let badgeSeverity;
   if (itemOptions.badge) {
     badgeText = xmlEscape(itemOptions.badge.text);
     badgeTooltip = xmlEscape(itemOptions.badge.tooltip);
+    badgeSeverity = xmlEscape(itemOptions.badge.severity);
   }
   const tag = itemOptions.type === "link" ? "a" : "button";
   const item = createElementFromHtml(`
       <${tag} class="jenkins-dropdown__item" href="${itemOptions.url}">
           ${itemOptions.icon ? `<div class="jenkins-dropdown__item__icon">${itemOptions.iconXml ? itemOptions.iconXml : `<img alt="${label}" src="${itemOptions.icon}" />`}</div>` : ``}
           ${label}
-                    ${itemOptions.badge != null ? `<span class="jenkins-dropdown__item__badge" tooltip="${badgeTooltip}">${badgeText}</span>` : ``}
+                    ${itemOptions.badge != null ? `<span class="jenkins-dropdown__item__badge jenkins-badge alert-${badgeSeverity}" tooltip="${badgeTooltip}">${badgeText}</span>` : ``}
           ${itemOptions.subMenu != null ? `<span class="jenkins-dropdown__item__chevron"></span>` : ``}
       </${tag}>
     `);

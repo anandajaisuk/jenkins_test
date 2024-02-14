@@ -1,0 +1,13 @@
+Started on Feb 14, 2024, 1:35:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 1c091e6c04f5357ddc34168dace02a9cca0b07cf (refs/remotes/Boat_jenkins/main)
+The recommended git tool is: NONE
+using credential 8cb52687-9d96-4afe-9112-56eaf7371aee
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h -- https://github.com/anandajaisuk/dockertest # timeout=10
+Found 1 remote heads on https://github.com/anandajaisuk/dockertest
+[poll] Latest remote head revision on refs/heads/main is: e4f06c174507f90d8be20da3c53efa487b737ddb
+Done. Took 1.1 sec
+Changes found

@@ -1,0 +1,9 @@
+Started by user [8mha:////4O5FkVY8N1ZaQ9mu4urHyciUmJLesw/fhlE1hMy/vDz7AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgY+/dLi1CL9pPzEkuLiYkMANsI7UsMAAAA=[0manandajaisuk
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/jenkinstest
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[jenkinstest] $ /bin/sh -xe /tmp/jenkins9153834252461314323.sh
++ echo hello world
+hello world
+Finished: SUCCESS

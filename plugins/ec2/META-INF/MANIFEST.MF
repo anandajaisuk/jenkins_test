@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Amazon EC2 plugin
+Specification-Version: 0.0
+Implementation-Title: Amazon EC2 plugin
+Implementation-Version: 1648.vf3d852e00486
+Plugin-Class: hudson.plugins.ec2.PluginImpl
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: ec2
+Short-Name: ec2
+Long-Name: Amazon EC2 plugin
+Url: https://github.com/jenkinsci/ec2-plugin
+Compatible-Since-Version: 1.45
+Plugin-Version: 1648.vf3d852e00486
+Hudson-Version: 2.414.1
+Jenkins-Version: 2.414.1
+Plugin-Dependencies: aws-java-sdk-ec2:1.12.586-413.v6a_6c3a_420126,aws-j
+ ava-sdk-minimal:1.12.586-413.v6a_6c3a_420126,workflow-step-api:639.v6ec
+ a_cd8c04a_a_,apache-httpcomponents-client-4-api:4.5.14-208.v43835194275
+ 7,aws-credentials:218.v1b_e9466ec5da_,bouncycastle-api:2.29,command-lau
+ ncher:107.v773860566e2e,credentials:1307.v3757c78f17c3,node-iterator-ap
+ i:49.v58a_8b_35f8363,ssh-credentials:308.ve4497b_ccd8f4,trilead-api:2.8
+ 4.v72119de229b_7
+Plugin-Developers: F Manfred Furuholen:thoulen:fabrizio.manfredi@gmail.c
+ om,Julien Duchesne:julienduchesne:julienduchesne@live.com,Raihaan Shouh
+ ell:raihaan:raihaanhimself@gmail.com
+Plugin-License-Name: The MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/ec2-plugin.gi
+ t
+Plugin-ScmTag: f3d852e00486f625d24fac71fe7e798f476e3cbe
+Plugin-ScmUrl: https://github.com/jenkinsci/ec2-plugin
+Plugin-GitHash: f3d852e00486f625d24fac71fe7e798f476e3cbe
+Implementation-Build: f3d852e00486f625d24fac71fe7e798f476e3cbe
+

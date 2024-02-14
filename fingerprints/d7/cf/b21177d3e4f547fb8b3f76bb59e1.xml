@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-02-14 13:08:39.840 UTC</timestamp>
+  <md5sum>d7cfb21177d3e4f547fb8b3f76bb59e1</md5sum>
+  <fileName>Credential id=46c6d17f-f507-4e25-8d39-64bc767f7923 name=46c6d17f-f507-4e25-8d39-64bc767f7923</fileName>
+  <usages>
+    <entry>
+      <string>jenkinstest</string>
+      <ranges>2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
